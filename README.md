@@ -10,10 +10,6 @@ Le frontend utilise Bootstrap assurant des pages dynamiques et un design soigné
 
 1. [Introduction](#introduction)
 2. [Prérequis](#prérequis)
-3. [Installation](#installation)
-4. [Utilisation](#utilisation)
-5. [Contribuer](#contribuer)
-6. [Licence](#licence)
 
 ---
 
