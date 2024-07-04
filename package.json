@@ -1,5 +1,17 @@
 {
-  "devDependencies": {
-    "electron": "^31.1.0"
-  }
+    "name": "my-electron-app",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "cheerio": "^1.0.0-rc.12",
+        "mysql": "^2.18.1",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "electron": "^26.0.0"
+    }
 }
