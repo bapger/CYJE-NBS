@@ -12,6 +12,7 @@
         "node-fetch": "^3.3.2"
     },
     "devDependencies": {
+        "@electron-forge/cli": "^7.4.0",
         "electron": "^26.0.0"
     }
 }

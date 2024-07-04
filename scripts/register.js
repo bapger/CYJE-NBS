@@ -6,11 +6,16 @@ document.getElementById('register-form').addEventListener('submit', (event) => {
   window.electron.registerUser({ username, password });
 });
 
-// Écouter les messages de succès et d'erreur
 window.electron.onRegisterError((event, message) => {
-  alert(message); // Afficher un message d'erreur à l'utilisateur
+  alert(message);
 });
 
-window.electron.onRegisterSuccess((event, message) => {
-  alert(message); // Afficher un message de succès à l'utilisateur
+window.electron.onRegisterSuccess((event, userId) => {
+  alert('Inscription réussie');
+  localStorage.setItem('currentUserId', userId);
+  window.electron.navigate('home');
+});
+
+document.getElementById('login-link').addEventListener('click', function() {
+  window.electron.navigate('login');
 });

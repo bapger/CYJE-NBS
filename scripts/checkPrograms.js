@@ -3,7 +3,7 @@ const { exec } = require('child_process');
 const checkPrograms = () => {
   return new Promise((resolve, reject) => {
     const programs = {
-      mysql: 'mysqlsh.exe -V',
+      mysql: 'mysqlsh -V',
       python: 'py --version',
       vscode: 'code --version'
     };

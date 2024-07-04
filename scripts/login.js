@@ -8,3 +8,6 @@ document.getElementById('login-form').addEventListener('submit', (event) => {
     console.error('Username and password are required');
   }
 });
+document.getElementById('login-link').addEventListener('click', function() {
+  window.electron.navigate('login');
+});

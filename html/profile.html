@@ -22,11 +22,34 @@
       <div class="col-md-6">
         <h2>Profil Utilisateur</h2>
         <div id="profile-info">
-          
+          <form id="profile-form">
+            <div class="form-group">
+              <label for="username">Nom d'utilisateur</label>
+              <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <input type="nom" class="form-control" id="nom" required>
+            </div>
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <input type="prenom" class="form-control" id="prenom" required>
+            </div>
+            <div class="form-group">
+              <label for="naissance">Date de naissance</label>
+              <input type="naissance" class="form-control" id="naissance" required>
+            </div>
+            <div class="form-group">
+              <label for="date_inscription">Date d'inscription</label>
+              <input type="date_inscription" class="form-control" id="date_inscription" readonly>
+            </div>
+            <button type="submit" class="btn btn-primary">Modifier</button>
+          </form>
         </div>
       </div>
     </div>
   </div>
   <script src="../scripts/sidebar.js"></script>
+  <script src="../scripts/profile.js"></script>
 </body>
 </html>

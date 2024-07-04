@@ -33,13 +33,17 @@ function setupDatabase(connection, dbName) {
             userId int NOT NULL AUTO_INCREMENT,  
             username varchar(255) NOT NULL,
             password varchar(255) NOT NULL,
+            nom varchar(255),
+            prenom varchar(255),
+            date_naissance DATE,
+            date_inscription TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             PRIMARY KEY (userId)
           )`, (err) => {
             if (err) {
               console.error('Erreur lors de la création de la table:', err);
               return reject(err);
             }
-            resolve(); // Résoudre la promesse si tout s'est bien passé
+            resolve();
           });
         });
       });
@@ -59,15 +63,15 @@ function handleMySQLQuery(query, params = []) {
             reject(error);
           } else {
             console.log('Requête réussie:', results);
-            resolve(results); // Résoudre avec les résultats de la requête
+            resolve(results);
           }
-          connection.end(); // Fermer la connexion après l'exécution de la requête
+          connection.end();
         });
       })
       .catch((err) => {
         console.error('Erreur lors de la configuration de la base de données:', err);
         reject(err);
-        connection.end(); // Assurez-vous de fermer la connexion en cas d'erreur
+        connection.end();
       });
   });
 }
