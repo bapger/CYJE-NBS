@@ -26,3 +26,16 @@ Avant d'installer l'application, assurez-vous d'avoir les éléments suivants :
 - MySQL Server installé et configuré localement.
 - Bootstrap installé.
 
+
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/c61beabd-ec00-4f8c-b293-8e17dffc425f)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/ae2b74db-7209-4f8c-8551-ba4cb1f78fb7)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/5f3b64ed-eecf-43fc-bafc-5e7c0634d3b5)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/b92a2147-7e1a-4ca4-afb4-910e6a24ae6c)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/230b75a0-92af-4113-ab43-2cd5be51c29c)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/a94fa40f-a878-4a25-ab33-c0263fa29505)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/7c844ccb-b6dd-4612-990b-153596049eb3)
+![image](https://github.com/bapger/CYJE-NBS/assets/153543264/7c06d64e-0cc7-4133-a0b1-7c62608ae2b4)
+
+
+
+
